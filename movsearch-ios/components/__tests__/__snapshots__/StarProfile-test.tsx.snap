@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes fallback image when star image path is broken 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9F9F9",
+      "borderColor": "#E0E0E0",
+      "borderRadius": 4,
+      "borderWidth": 0.5,
+      "marginBottom": 10,
+      "marginLeft": 4,
+      "marginTop": 10,
+      "maxWidth": 130,
+    }
+  }
+>
+  <Image
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://image.tmdb.org/t/p/w200/aTcqu8cI4wMohU17xTdXKTGrw.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "height": 180,
+        "margin": "auto",
+        "width": 120,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+        },
+        Object {
+          "color": "black",
+        },
+      ]
+    }
+  >
+    Ben Affleck
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 10,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "black",
+        },
+      ]
+    }
+  >
+    Bruce Wayne / Batman
+  </Text>
+</View>
+`;
+
+exports[`renders correct star image 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9F9F9",
+      "borderColor": "#E0E0E0",
+      "borderRadius": 4,
+      "borderWidth": 0.5,
+      "marginBottom": 10,
+      "marginLeft": 4,
+      "marginTop": 10,
+      "maxWidth": 130,
+    }
+  }
+>
+  <Image
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://image.tmdb.org/t/p/w200/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "height": 180,
+        "margin": "auto",
+        "width": 120,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 13,
+          "fontWeight": "600",
+          "textAlign": "center",
+        },
+        Object {
+          "color": "black",
+        },
+      ]
+    }
+  >
+    Ben Affleck
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 10,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "black",
+        },
+      ]
+    }
+  >
+    Bruce Wayne / Batman
+  </Text>
+</View>
+`;
