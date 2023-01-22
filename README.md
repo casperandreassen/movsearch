@@ -2,6 +2,8 @@ Dette kodelageret inneholder kildekode for movsearch som er en app utviklet i em
 
 # DEMO
 
+Klikk på bildet, så åpnes videoen på YouTube.
+
 [![movsearch demo](https://img.youtube.com/vi/2unZmy3-2N4/0.jpg)](https://www.youtube.com/watch?v=2unZmy3-2N4)
 
 
