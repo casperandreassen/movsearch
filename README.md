@@ -1,3 +1,6 @@
+Dette kodelageret inneholder kildekode for movsearch som er en app utviklet i emnet IT2810. Ract-Native klienten er laget av meg, mens backend var et samarbeid i en gruppe på 4. 
+
+
 ## Kjøring
 
 Installer avhengigheter med
